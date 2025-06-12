@@ -32,4 +32,4 @@ early_stop = EarlyStopping(monitor='val_loss', patience=5)
 model.fit(X_train, y_train, epochs=50, validation_data=(X_test, y_test))
 
 model.save("sign_model.h5")
-print("✅ Model trained and saved as sign_model.h5")
+print("Model trained and saved as sign_model.h5")
